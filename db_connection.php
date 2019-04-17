@@ -1,10 +1,10 @@
 <?php
 function OpenCon()
  {
- $dbhost = "localhost";
- $dbuser = "root";
- $dbpass = "1234";
- $db = "world";
+ $dbhost = "mercury.nottingham.edu.my";
+ $dbuser = "hfynm5_hfynm5";
+ $dbpass = "hannatakcomel";
+ $db = "hfynm5_world";
  $conn = new mysqli($dbhost, $dbuser, $dbpass,$db) or die("Connect failed: %s\n". $conn -> error);
 
  return $conn;
